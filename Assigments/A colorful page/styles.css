@@ -1,0 +1,41 @@
+body{
+    background-image: url(images/pexels-photo-1563356.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    background: rgb(123, 81, 81);
+    background: linear-gradient(48deg, rgb(123, 81, 81) 15%, rgb(55, 11, 11)65%);
+    color: white;
+    text-align: center;
+}
+
+nav{
+    background: rgb(63, 63, 63, 0.5);
+    color: white;
+}
+
+nav a{
+    color: white;
+}
+
+.first{
+    background: rgb(123, 81, 81);
+    background: linear-gradient(48deg, rgb(123, 81, 81) 15%, rgb(55, 11, 11)65%);
+    color: white;
+    margin-top: 30px;
+}
+
+.second{
+    background: rgb(123, 81, 81);
+    background: linear-gradient(48deg, rgb(123, 81, 81) 15%, rgb(55, 11, 11)65%);
+    color: white;
+    margin-top: 55px;
+}
+.row{
+    text-align: center;
+    font-size: 85px;
+    color: rgb(255, 255, 255,0.4);
+
+}
