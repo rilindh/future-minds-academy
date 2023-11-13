@@ -1,0 +1,16 @@
+p{
+    width: 350px;
+}
+.first{
+    font-size: 80px;
+    font-weight: bold;
+    float: left;
+    text-decoration: underline red;
+    line-height: 0.85;
+    margin: 5px 10px 0 0;
+}
+.second{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+}
