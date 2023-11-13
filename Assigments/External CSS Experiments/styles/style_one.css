@@ -1,0 +1,14 @@
+h1{
+    background-color: black;
+    border: 3px solid rgb(130, 102, 102);
+    
+}
+h2{
+    background-color: blue;
+    font-family: 'Courier New';
+    
+}
+p{
+    background-color: yellow;
+    font-size: 20px;
+}

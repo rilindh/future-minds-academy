@@ -1,0 +1,15 @@
+h1{
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+h2{
+    color: yellow;
+    width: 400px;
+    margin: 10px;
+}
+p{
+    color: green;
+    font-family: Arial;
+    margin: 25px;
+}
