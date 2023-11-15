@@ -1,0 +1,44 @@
+header {
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(12,66,94,1) 100%);;
+    text-align: center;
+
+}
+ul li img{
+    width: 300px;
+}
+
+ul li{
+    border: 5px solid rgb(121, 121, 181);
+    list-style-type: none;
+    float: left;
+    box-shadow: 4px 4px 4px 4px rgb(205, 201, 201, 0.4);
+    margin: 40px 40px 40px 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    width: 350px;
+    padding: 15px;
+    color: black;
+}
+h1:hover{
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(162,157,189,1) 58%);
+}
+.Blue ul li a:hover{
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(71,107,107,1) 37%, rgba(10,67,170,1) 92%);
+}
+
+.Butrint ul li a:hover{
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(74,107,71,1) 25%, rgba(170,163,10,1) 92%);
+}
+.Gjipe ul li a:hover{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(50,117,95,0.9641106442577031) 100%);
+}
+
+ul li ::first-letter{
+    font-size: 22px;
+    font-weight: bold;
+}
