@@ -1,0 +1,38 @@
+/*
+Author : Rilind Hajdari
+
+*/
+
+nav {
+    padding: 20px 20px;
+    border-bottom: 1px solid rgb(232, 138, 138);
+    margin-bottom: 30px;
+    height: 30px;
+}
+
+/* 1.Top section */
+
+.toptitle {
+    font-size: 40px;
+   color:  #d291d2; 
+   
+}
+
+nav li {
+float: left;
+list-style-type: none;
+margin: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(60, 59, 59);
+    display: block;
+    padding: 10px;
+}
+
+.active {
+    background-color: rgb(204, 200, 200);
+}
+nav li:hover{
+    background-color: rgb(204, 200, 200);
+}
