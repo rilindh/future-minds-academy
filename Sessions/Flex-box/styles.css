@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    background-image: url(images/nav-bgr.png);
+    background-position: -200px;   
+    flex: 1;
+}
+.avatar{
+    display: flex;
+}
+span img{
+    flex: 1;
+    
+}
+.avatar h4{
+    float: 4;
+    margin: 10px auto;
+}
+nav li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 2px;
+}
+.active-state{
+    background-color: rgba(127, 12, 12);
+}
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.nav-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    padding: 10px;
+}
+.nav-overlay hr {
+    margin: 15px 0px;
+    color: rgb(229, 225, 219);
+}
+
+.right-side {
+    flex-direction: column;
+    flex: 5;
+    height: 100vh;
+}
+
+header {
+    background-color:rgb(188, 246, 246);
+    padding: 10px;
+    
+}
+
+main {
+    display: flex;
+}
+
+article {
+    background-color: rgb(255, 250, 196);
+    padding: 10px;
+    flex: 5;
+    height: 90vh;
+}
+
+aside {
+    background-color: rgb(255, 0, 251);
+    padding: 10px;
+    flex: 1;
+}
+
+footer {
+    background-color: yellow;
+    padding: 10px;
+}

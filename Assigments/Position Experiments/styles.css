@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    position: relative;
+    border: 2px solid rgb(215, 211, 211);
+    box-shadow: -2px -2px 2px 0px rgba(175, 173, 173, 0.7);
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-bottom: 25px;
+}
+
+h1{
+    position: relative;
+    top:-20px;
+    font-size: 2.1em;
+    font-weight: bold;
+}
+
+span{
+    position: absolute;
+    top: -10px;
+    left: 490px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    width: 25px;
+    cursor: pointer;
+}
+.video{
+    position: fixed;
+    border: solid 1px black;
+    bottom: 0;
+    right: 5px;
+    width: 300px;
+    padding: 10px;
+}
+

@@ -6,15 +6,15 @@ body{
     background-position: center;
     background-attachment: fixed;
     cursor: url(../images/cursorb1.png), auto;
-    float: left;
     font-family: 'Lato';
+    width: 200vh;
 }
 
 header{
     text-align: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8);
     background-color: rgb(165, 45, 45, 0.9);
     color: white;
     margin: 20px 200px 20px 200px;
@@ -43,20 +43,20 @@ nav a{
     display: block;
 }
 .first{
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     background-color: rgb(165, 45, 45, 0.9); 
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8);
     color: white;
     text-align: center;
     margin: 20px 200px 20px 200px;
     padding: 5px;
 }
 .second{
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     background-color: rgb(165, 45, 45, 0.9); 
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8);
     color: white;
     text-align: center;
     margin: 20px 200px 20px 200px;
@@ -66,14 +66,14 @@ nav a{
     border: 1px solid black;
     border-radius: 10px;
     background-color: rgb(165, 45, 45, 0.9);
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7); 
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8); 
     color: white;
     text-align: center;
     margin: 20px 200px 20px 200px;
     padding: 5px;
 }
 figure img{
-    width: 800px;
+    width: 650px;
 }
 .return{
     border: 1px solid black;
@@ -83,10 +83,10 @@ figure img{
     text-decoration: none;
 }
 footer{
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     background-color: rgb(165, 45, 45, 0.9);
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7); 
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8); 
     color: white;
     text-align: center;
     margin: 20px 200px 20px 200px;
@@ -96,28 +96,28 @@ footer{
 header:hover{
     background-color: rgb(165, 45, 45);
     margin: 40px 100px 40px 100px;
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8);
     
 }
 .first:hover{
     background-color: rgb(165, 45, 45);
     margin: 40px 100px 40px 100px;
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8);
 }
 .second:hover{
     background-color: rgb(165, 45, 45);
     margin: 40px 100px 40px 100px;
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8);
 }
 .third:hover{
     background-color: rgb(165, 45, 45);
     margin: 40px 100px 40px 100px;
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8);
 }
 footer:hover{
     background-color: rgb(165, 45, 45);
     margin: 40px 100px 40px 100px;
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8);
 }
 nav a:hover{
     cursor: url(../images/click.png), auto;

@@ -7,14 +7,14 @@ body{
     background-attachment: fixed;
     cursor: url(../images/cursorb1.png), auto;
     font-family: 'Lato';
-    float: left;
+    width: 200vh;
 }
 
 header{
     text-align: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8);
     background-color: rgb(165, 45, 45, 0.9);
     color: white;
     margin: 20px 400px 20px 400px;
@@ -44,10 +44,10 @@ header{
 }
 
 .personal{
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     background-color: rgb(165, 45, 45, 0.9); 
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8);
     color: white;
     text-align: center;
     margin: 20px 400px 20px 400px;
@@ -73,10 +73,10 @@ figure img {
 }
 
 .education {
-    border: 1px solid black; 
+    border: 3px solid black; 
     border-radius: 10px;
     background-color: rgb(165, 45, 45, 0.9);
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8);
     color: white;
     margin: 20px 400px 20px 400px;
     padding: 5px;
@@ -107,9 +107,9 @@ article h4{
 
 
 .skills{
-    border: 1px solid black; 
+    border: 3px solid black; 
     border-radius: 10px;
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8);
     background-color: rgb(165, 45, 45, 0.9);
     color: white;
     margin: 20px 400px 20px 400px;
@@ -138,9 +138,9 @@ th{
 
 
 .project{
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 10px; 
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8);
     background-color: rgb(165, 45, 45, 0.9);
     color: white; 
     margin: 20px 400px 20px 400px;
@@ -170,10 +170,10 @@ th{
         
 }
 footer{
-    border: 1px solid black; 
+    border: 3px solid black; 
     border-radius: 10px;
     background-color: rgb(165, 45, 45, 0.9);
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8);
     color: white;
     margin: 20px 400px 20px 400px;
     padding: 5px;
@@ -184,17 +184,17 @@ footer{
 header:hover{
     background-color: rgb(165, 45, 45);
     margin: 40px 350px 40px 350px;
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8);
 }
 .personal:hover{
     background-color: rgb(165, 45, 45); 
     margin: 40px 350px 40px 350px;
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8);
 }
 .education:hover {
     background-color: rgb(165, 45, 45);
     margin: 40px 350px 20px 350px;
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8);
 }
 article:hover{
     box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
@@ -202,17 +202,17 @@ article:hover{
 .skills:hover{
     background-color: rgb(165, 45, 45);
     margin: 40px 350px 40px 350px;
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8);
 }
 .project:hover{
     background-color: rgb(165, 45, 45);
     margin: 40px 350px 40px 350px;
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8);
 }
 footer:hover{
     background-color: rgb(165, 45, 45);
     margin: 40px 350px 40px 350px; 
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7); 
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8); 
 }
 nav a:hover{
     cursor: url(../images/click.png), auto;

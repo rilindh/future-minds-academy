@@ -36,3 +36,143 @@ nav a {
 nav li:hover{
     background-color: rgb(204, 200, 200);
 }
+ /*
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lato:wght@300&family=Playfair+Display:ital@1&display=swap');
+body{
+    background-image: url(../images/web3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    cursor: url(../images/cursorb1.png), auto;
+    font-family: 'Lato';  
+    float: left;
+}
+
+header{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    background-color: rgb(165, 45, 45, 0.9);
+    color: white;
+    margin: 20px 400px 20px 400px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+}
+
+nav li{
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    background-color: rgba(24, 98, 159, 0.7);
+    padding: 5px;
+    margin: 0px 10px 0px 10px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(245, 239, 239);
+    display: block;
+}
+.contact{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    background-color: rgb(165, 45, 45, 0.9); 
+    color: white;
+    text-align: center;
+    margin: 20px 400px 20px 400px;
+    padding: 5px;  
+}
+form input{
+    background-color: rgba(24, 98, 159, 0.7);
+    color: white;
+    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    margin: 10px 10px 10px 0px;
+    padding: 3px;
+}
+form textarea{    
+    background-color: rgba(24, 98, 159, 0.7);
+    color: white;
+    margin-top: 5px;
+}
+form input::placeholder{
+    background-color: rgba(24, 98, 159, 0.7);
+    color: white;
+}
+form textarea::placeholder{
+    background-color: rgba(24, 98, 159, 0.7);
+    color: white;
+}
+form button{
+    border-radius: 5px;
+    background-color: rgba(24, 98, 159, 0.7);
+    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    color: white;
+}
+.email{
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    background-color: rgba(24, 98, 159, 0.7);
+    color: white;
+    padding: 2px;
+}
+.message{
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    background-color: rgba(24, 98, 159, 0.7);
+    color: white;
+}
+.connect{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(165, 45, 45, 0.9); 
+    color: white;
+    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    text-align: center;
+    margin: 20px 400px 20px 400px;
+    padding: 5px;  
+}
+a img{
+    width: 50px;
+}
+
+footer{
+    border: 1px solid black; 
+    border-radius: 10px;
+    background-color: rgb(165, 45, 45, 0.9);
+    color: white;
+    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    margin: 20px 400px 20px 400px;
+    padding: 5px;
+    text-align: center;
+}
+header:hover{
+    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    background-color: rgb(165, 45, 45);
+    margin: 40px 200px 40px 200px;
+}
+.contact:hover{
+    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    background-color: rgb(165, 45, 45);
+    margin: 40px 200px 40px 200px;
+}
+.connect:hover{
+    background-color: rgb(165, 45, 45, 0.9); 
+    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    margin: 40px 200px 40px 200px;
+}
+footer:hover{
+    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    background-color: rgb(165, 45, 45);
+    margin: 40px 200px 40px 200px;
+}

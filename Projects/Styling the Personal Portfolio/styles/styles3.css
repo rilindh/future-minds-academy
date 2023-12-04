@@ -7,15 +7,17 @@ body{
     background-attachment: fixed;
     cursor: url(../images/cursorb1.png), auto;
     font-family: 'Lato';  
+    width: 200vh;
 }
 header{
     text-align: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8);
     background-color: rgb(165, 45, 45, 0.9);
     color: white;
-    margin: 20px 400px 20px 400px;
+    margin: 20px 350px 20px 350px;
+    
 }
 
 nav ul{
@@ -42,13 +44,13 @@ nav a{
     display: block;
 }
 .contact{
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     background-color: rgb(165, 45, 45, 0.9); 
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8);
     color: white;
     text-align: center;
-    margin: 20px 400px 20px 400px;
+    margin: 20px 350px 20px 350px;
     padding: 5px; 
 }
 form input{
@@ -62,6 +64,7 @@ form textarea{
     background-color: rgba(24, 98, 159, 0.7);
     color: white;
     margin-top: 5px;
+    width: 50%;
 }
 form input::placeholder{
     background-color: rgba(24, 98, 159, 0.7);
@@ -93,13 +96,13 @@ form button{
     color: white;
 }
 .connect{
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     background-color: rgb(165, 45, 45, 0.9); 
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8);
     color: white;
     text-align: center;
-    margin: 20px 400px 20px 400px;
+    margin: 20px 350px 20px 350px;
     padding: 5px;
 }
 a img{
@@ -107,38 +110,47 @@ a img{
 }
 
 footer{
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     background-color: rgb(165, 45, 45, 0.9); 
-    box-shadow: -2px -2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: -5px -5px 5px 0px rgba(197, 195, 195, 0.8);
     color: white;
     text-align: center;
-    margin: 20px 400px 20px 400px;
+    margin: 20px 350px 20px 350px;
     padding: 5px;
 }
+/* Hover */
 header:hover{
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8);
     background-color: rgb(165, 45, 45);
-    margin: 20px 200px 20px 200px;
+    margin: 40px auto;
+    width: 80%;
     
 }
 .contact:hover{
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8);
     background-color: rgb(165, 45, 45);
-    margin: 20px 200px 20px 200px;
+    margin: 40px auto;
+    width: 80%;
 }
 .connect:hover{
     background-color: rgb(165, 45, 45); 
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
-    margin: 20px 200px 20px 200px;
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8);
+    margin: 40px auto;
+    width: 80%;
 }
 footer:hover{
-    box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+    box-shadow: 5px 5px 5px 0px rgba(197, 195, 195, 0.8);
     background-color: rgb(165, 45, 45);
-    margin: 20px 200px 20px 200px;
+    margin: 60px auto;
+    width: 80%;
+    height: 15%;
 }
 nav li:hover{
     box-shadow: 2px 2px 2px 0px rgba(197, 195, 195, 0.7);
+}
+nav a:hover{
+    cursor: url(../images/click.png), auto;
 }
 button:hover{
     cursor: url(../images/click.png), auto;
